@@ -1,10 +1,9 @@
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <>
+      <FloatingWhatsApp phoneNumber="+919920964000" accountName="Sameer" avatar={avatar} />
+    
+    </>
   );
 };
 

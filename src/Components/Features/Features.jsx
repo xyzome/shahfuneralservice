@@ -1,6 +1,6 @@
-import speaker from '../../assets/image/speaker.svg';
-import events from '../../assets/image/events.svg';
-import tribe from '../../assets/image/tribe.svg';
+import compassionate from '../../assets/image/compassionate.svg';
+import personalize from '../../assets/image/personalize.svg';
+import community from '../../assets/image/community.svg';
 
 const Features = () => {
     return (
@@ -9,61 +9,64 @@ const Features = () => {
             <div className='mb-14'>
                 <div>
                     <h1 className="text-4xl sm:text-5xl font-bold leading-tight text-[#211f54] mb-4 text-center">
-                        The Features
+                        Honoring Lives with Compassion and Care
                     </h1>
 
                 </div>
 
                 <p className="text-center text-lg mb-8 md:px-10 lg:px-32 xl:px-52">
-                    Event learning often refers to the practice of reviewing and analyzing past events, incidents, or accidents to identify lessons learned and improve future performance.
+                    We offer compassionate funeral services, personalized memorial planning, and community support to help you honor your loved ones during these difficult times.
                 </p>
             </div>
 
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
+                {/* Compassionate Care */}
                 <div className='flex flex-col justify-center items-center'>
                     <div>
-                        <img src={speaker} alt="" />
+                        <img src={compassionate} alt="Compassionate Care" />
                     </div>
 
                     <div className='text-center'>
                         <h1 className='text-2xl font-semibold mb-2'>
-                            Visionary Speaker
+                            Compassionate Care
                         </h1>
 
                         <p className='text-lg'>
-                            We have gathered some of the most influential and forward-thinking individuals to share their ideas.
+                            Our dedicated team offers compassionate care and support, ensuring every detail is handled with respect and dignity.
                         </p>
                     </div>
                 </div>
 
+                {/* Personalized Memorial Planning */}
                 <div className='flex flex-col justify-center items-center'>
                     <div>
-                        <img src={events} alt="" />
+                        <img src={personalize} alt="Compassionate Care" />
                     </div>
 
                     <div className='text-center'>
                         <h1 className='text-2xl font-semibold mb-2'>
-                            Worldwide Events
+                            Personalized Memorial Planning
                         </h1>
 
                         <p className='text-lg'>
-                            Consider enrolling in a university, college, or vocational school to pursue a degree or in a field of interest.
+                            We assist in planning personalized memorial services to celebrate the life and legacy of your loved ones.
                         </p>
                     </div>
                 </div>
 
+                {/* Community Support */}
                 <div className='flex flex-col justify-center items-center'>
                     <div>
-                        <img src={tribe} alt="" />
+                        <img src={community} alt="Compassionate Care" />
                     </div>
 
                     <div className='text-center'>
                         <h1 className='text-2xl font-semibold mb-2'>
-                            Help Find Your Tribe
+                            Personalized Memorial Planning
                         </h1>
 
                         <p className='text-lg'>
-                            Many events have dedicated hashtags or social media groups where attendees can connect the event.
+                            We assist in planning personalized memorial services to celebrate the life and legacy of your loved ones.
                         </p>
                     </div>
                 </div>

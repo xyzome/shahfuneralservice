@@ -1,7 +1,8 @@
 import { AiFillClockCircle } from "react-icons/ai";
 import { FaLocationDot } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
-
+import me1 from '../../images/me-1.jpg'
+import me2 from '../../images/me-2.jpg'
 const MoreEvents = () => {
     return (
         <div className="max-w-7xl mx-auto px-5 py-20 md:py-28 lg:py-34 xl:pb-56 relative" data-aos="fade-up"
@@ -18,9 +19,10 @@ const MoreEvents = () => {
 
                     <NavLink to='/services'>
                         <div className="flex sm:justify-center xl:justify-start">
-                            <button className="text-xl bg-[#4845e3] py-5 px-7 rounded-xl text-white font-medium w-60 mb-10">
+                            <button className="text-lg md:text-xl bg-[#4845e3] py-3 px-5 md:py-5 md:px-7 rounded-xl text-white font-medium w-full md:w-60 mb-6 md:mb-10">
                                 Learn More
                             </button>
+
                         </div>
                     </NavLink>
                 </div>
@@ -32,7 +34,7 @@ const MoreEvents = () => {
 
                     <div className="md:w-[600px] xl:w-96 p-8 mx-auto bg-white rounded-2xl xl:absolute xl:top-20 xl:-left-36 shadow-2xl mb-6 xl:mb-0">
                         <div className="w-full h-56 sm:h-72 xl:h-56 mb-7">
-                            <img src="https://images.unsplash.com/photo-1589186600676-2d91c17cc839?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="" className="w-full h-full object-cover rounded-2xl" />
+                            <img src={me2}alt="" className="w-full h-full object-cover rounded-2xl" />
                         </div>
 
                         <div>
@@ -59,7 +61,7 @@ const MoreEvents = () => {
 
                     <div className="md:w-[600px] xl:w-96 p-8 mx-auto rounded-3xl bg-[#ed4458] flex gap-5 xl:absolute xl:bottom-16 xl:-right-10">
                         <div className="w-24">
-                            <img src="https://images.unsplash.com/photo-1504333638930-c8787321aad7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="" className="w-full h-full object-cover rounded-3xl" />
+                            <img src={me1} alt="Image here" className="w-full h-full object-cover rounded-3xl" />
                         </div>
 
                         <div className="flex-1 text-white">

@@ -16,7 +16,7 @@ const Banner = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-3 md:gap-4">
-                    <a rel='+918657655887' className='bg-[#4845e3] py-3 sm:py-5 sm:px-7 rounded-md text-white font-medium text-center w-full sm:w-auto'>
+                    <a href='tel:8657655887' className='bg-[#4845e3] py-3 sm:py-5 sm:px-7 rounded-md text-white font-medium text-center w-full sm:w-auto'>
                         <button className="text-xl">
                             Call Us Now
                         </button>

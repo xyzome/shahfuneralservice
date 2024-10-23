@@ -32,13 +32,8 @@ const Navbar = () => {
                         Services
                     </NavLink>
 
-                    <NavLink to='/schedules' className={({ isActive, isPending }) => isPending ? "text-black" : isActive ? "text-[#ff566a]" : ""}>
-                        Schedules
-                    </NavLink>
-
-                    <NavLink to='/tickets' className={({ isActive, isPending }) => isPending ? "text-black" : isActive ? "text-[#ff566a]" : ""}>
-                        Tickets
-                    </NavLink>
+                   
+                   
                 </div>
 
              
@@ -61,13 +56,7 @@ const Navbar = () => {
                             Services
                         </NavLink>
 
-                        <NavLink to='/schedules' className={({ isActive, isPending }) => isPending ? "text-black" : isActive ? "text-[#ff566a]" : ""}>
-                            Schedules
-                        </NavLink>
-
-                        <NavLink to='/tickets' className={({ isActive, isPending }) => isPending ? "text-black" : isActive ? "text-[#ff566a]" : ""}>
-                            Tickets
-                        </NavLink>
+                        
 
                         
                     </div>

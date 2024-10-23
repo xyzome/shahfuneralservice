@@ -63,19 +63,19 @@ const WhyShouldJoin = () => {
                             </div>
 
                             <div className="h-60 w-full rounded-3xl">
-                                <img src={img2} alt="Funeral Image 2" className="w-full h-full rounded-3xl object-cover" />
+                                <img src={img2} alt="Funeral Image 2" className="w-full h-full rounded-3xl object-cover hover:scale-105" />
                             </div>
                         </div>
 
                         <div className="flex flex-col lg:flex-row gap-6">
                             <div className="h-60 xl:w-40 rounded-3xl">
-                                <img src={img4} alt="Funeral Image 4" className="w-full h-full rounded-3xl object-cover" />
+                                <img src={img4} alt="Funeral Image 4" className="w-full h-full rounded-3xl object-cover hover:scale-105" />
                             </div>
                             <div className="h-60 xl:w-80 rounded-3xl">
-                                <img src={img3} alt="Funeral Image 4" className="w-full h-full rounded-3xl object-cover" />
+                                <img src={img3} alt="Funeral Image 4" className="w-full h-full rounded-3xl object-cover hover:scale-105" />
                             </div>
                             <div className="h-60 xl:w-40 rounded-3xl">
-                                <img src={img5} alt="Funeral Image 5" className="w-full h-full rounded-3xl object-cover" />
+                                <img src={img5} alt="Funeral Image 5" className="w-full h-full rounded-3xl object-cover hover:scale-105" />
                             </div>
                         </div>
                     </div>

@@ -4,11 +4,13 @@ import './index.css'
 import { RouterProvider } from 'react-router-dom'
 import router from './Router/Routes.jsx'
 import AuthProvider from './Hooks/AuthProvider'
-
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <AuthProvider>
       <RouterProvider router={router} />
     </AuthProvider>
-  </React.StrictMode>,
+
+  </React.StrictMode>
+  
 )
