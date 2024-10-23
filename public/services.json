@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Venue Booking",
+        "image": "../../../src/images/service-1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Floral Decor",
+        "image": "../../../src/images/service-2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Photo Framing",
+        "image": "../../../src/images/service-3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Singer / Bhai Ji",
+        "image": "../../../src/images/service-4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Catering",
+        "image": "../../../src/images/service-5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Tenting I(If Required)",
+        "image": "https://i.ibb.co/Tq4TbL0/audio-visual-production.jpg"
+    }
+]
