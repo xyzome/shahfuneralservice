@@ -1,6 +1,5 @@
 import { useLoaderData } from "react-router-dom";
 import ServicesCard from "../../Components/ServicesCard/ServicesCard";
-import service1 from '../../../src/images/service-1.jpg'
 const Services = () => {
 
     const servicesData = useLoaderData();

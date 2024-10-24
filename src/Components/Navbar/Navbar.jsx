@@ -8,14 +8,14 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(!false);
 
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     
     return (
         <div>
             <nav className="max-w-7xl mx-auto px-5 flex justify-between items-center py-8 md:py-16">
                 <NavLink to='/' className='text-[40px] font-bold flex justify-center items-center'>
-                    <img src={logo} className="text-[#4845e3] text-5xl" />
+                    <img src={logo} className="text-[#4845e3] text-5xl" alt="Shah Funeral Service Logo" />
                     
                 </NavLink>
 

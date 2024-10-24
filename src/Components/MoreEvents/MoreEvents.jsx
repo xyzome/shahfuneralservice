@@ -53,7 +53,7 @@ const MoreEvents = () => {
 
                                 <p className="flex items-center gap-2">
                                     <FaLocationDot className="text-xl text-[#ed4458]" />
-                                    Peaceful Garden Memorial Hall
+                                    Anthony Compound , Juhu Lane, Andheri West 
                                 </p>
                             </div>
                         </div>

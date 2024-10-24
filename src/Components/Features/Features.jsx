@@ -23,7 +23,7 @@ const Features = () => {
                 {/* Compassionate Care */}
                 <div className='flex flex-col justify-center items-center'>
                     <div>
-                        <img src={compassionate} alt="Compassionate Care" />
+                        <img src={compassionate} alt="Compassionate icon" />
                     </div>
 
                     <div className='text-center'>
@@ -40,7 +40,7 @@ const Features = () => {
                 {/* Personalized Memorial Planning */}
                 <div className='flex flex-col justify-center items-center'>
                     <div>
-                        <img src={personalize} alt="Compassionate Care" />
+                        <img src={personalize} alt="Personalize icon" />
                     </div>
 
                     <div className='text-center'>
@@ -57,7 +57,7 @@ const Features = () => {
                 {/* Community Support */}
                 <div className='flex flex-col justify-center items-center'>
                     <div>
-                        <img src={community} alt="Compassionate Care" />
+                        <img src={community} alt="Community Icon" />
                     </div>
 
                     <div className='text-center'>

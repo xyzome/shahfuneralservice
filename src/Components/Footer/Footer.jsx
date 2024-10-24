@@ -1,5 +1,4 @@
-import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
-import { IoMdMicrophone } from "react-icons/io";
+import {  BsInstagram, BsYoutube } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 import logo from '../../images/logo.png'
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
         data-aos-duration="1000">
                 <div className="">
                     <NavLink to='/' className='text-[40px] font-bold flex items-center mb-3'>
-                        <img src={logo} className="text-[#e34545] text-5xl" />
+                        <img src={logo} className="text-[#e34545] text-5xl" alt="Shah Funeral Service Logo" />
                        
                     </NavLink>
 
