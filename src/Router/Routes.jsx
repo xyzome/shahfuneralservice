@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Pages/MainLayout/MainLayout";
 import Home from "../Pages/Home/Home";
 import Services from "../Pages/Services/Services";
-import Events from "../Pages/Events/Events";
 import About from "../Pages/About/About";
 import PrivateRoute from "../Pages/PrivateRoute/PrivateRoute";
 import ServicesDetails from "../Pages/ServicesDetails/ServicesDetails";
@@ -28,11 +27,7 @@ const router = createBrowserRouter([
                 path: '/services/:detailsId',
                 element: <PrivateRoute><ServicesDetails /></PrivateRoute>,
                 loader: () => fetch('../services.json')
-            },
-            {
-                path: '/events',
-                element: <Events />
-            },          
+            },                
             {
                 path: '/about',
                 element: <About />
